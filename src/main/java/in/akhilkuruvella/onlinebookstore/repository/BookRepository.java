@@ -1,0 +1,9 @@
+package in.akhilkuruvella.onlinebookstore.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import in.akhilkuruvella.onlinebookstore.entity.Book;
+
+public interface BookRepository extends JpaRepository<Book, Long>{
+
+}
